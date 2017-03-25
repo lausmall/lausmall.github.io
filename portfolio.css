@@ -342,3 +342,10 @@ footer .instagram:hover {
     display: none;
   }
 }
+
+@media only screen and (max-width: 1250px) {
+  iframe {
+    width:315px;
+    height: 177.19px;
+  }
+}
