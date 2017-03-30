@@ -278,7 +278,7 @@ p {
     padding:8px 12px;
     background:#0A5175;
     display: block;
-    width:120px;
+    width:20%;
     margin:0px 0 0px 0;
     border-radius:3px;
     -webkit-transition: all 0.3s;
@@ -289,17 +289,19 @@ p {
     box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    text-decoration: none;
   }
 
   .button:hover{
     background:#8BC3A3;
     color:white;
+    text-decoration: none;
   }
 
 /* Send Button Styles */
 
   .form-btn{
-    width:280px;
+    width: 20%;
     display: block;
     height: auto;
     padding:15px;
@@ -316,20 +318,24 @@ p {
     -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     font-size: 18px;
+    text-decoration: none;
   }
 
   .form-btn:hover{
     background:#111;
     color: white;
     border:none;
+    text-decoration: none;
   }
 
   .form-btn:active{
     opacity: 0.9;
+    text-decoration: none;
   }
 
 .form-btn {
-  margin-left: 35%;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
 
