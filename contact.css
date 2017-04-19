@@ -418,10 +418,6 @@ footer .instagram:hover {
 }
 
 @media only screen and (max-width: 420px) {
-  .griffin {
-    margin-left: 17%;
-  }
-
   .form-btn {
     margin-left: 10%;
     width: 80%;
