@@ -245,26 +245,19 @@ p {
  text-align: center;
 }
 
-.griffin {
-  margin-left: 24%;
-}
-
-.col-md-6 h2 {
-  text-align: center;
-  font-weight: 300;
-  font-size: 50px;
-}
-
-.col-md-6 h3 {
-  text-align: center;
-  margin-bottom: 10%;
-}
 
 .col-md-6 img {
   width:240px; 
-  height: 135px; 
+  height: auto; 
   border-radius: 50px;
 }
+
+img.ri {
+  max-width: 80%;
+  top: 10%;
+  margin-left: 30%;
+} 
+
 
 .contact h2 {
   text-align: center;
@@ -290,6 +283,7 @@ p {
     -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     text-decoration: none;
+    margin-bottom: 50px;
   }
 
   .button:hover{
@@ -319,6 +313,7 @@ p {
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     font-size: 18px;
     text-decoration: none;
+    margin-bottom: 50px;
   }
 
   .form-btn:hover{
@@ -326,16 +321,19 @@ p {
     color: white;
     border:none;
     text-decoration: none;
+    margin-bottom: 50px;
   }
 
   .form-btn:active{
     opacity: 0.9;
     text-decoration: none;
+    margin-bottom: 50px;
   }
 
 .form-btn {
   margin-left: 40%;
   margin-right: 40%;
+  margin-bottom: 50px;
 }
 
 
@@ -425,19 +423,32 @@ footer .instagram:hover {
   }
 
   .form-btn {
-    margin-left: 15%;
+    margin-left: 10%;
+    width: 80%;
   }
 }
 
 
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 360px) {
   .form-btn {
     margin-left: 8%;
   }
+
+  img.ri {
+    margin-left: 7%;
+  }
 }
 
-@media only screen and (max-width:400px) {
+
+@media only screen and (max-width: 420px) {
+  img.ri {
+    margin-left: 17%;
+  }
   .navbar-text {
     display: none;
+  }
+
+  .navbar {
+    height: 100px;
   }
 }
