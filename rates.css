@@ -1,0 +1,384 @@
+.navbar {
+ font-weight: 500;
+ letter-spacing: .05em;
+}
+
+.home-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grow:hover { 
+  transform: scale(1.2); 
+}
+
+.logo {
+  display: block;
+  vertical-align: baseline;
+  max-height: 65px;
+}
+
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+.navbar li {
+  color: #000;
+}
+
+.navbar-right {
+  margin-right: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+.navbar-text {
+  font-weight: 300;
+  letter-spacing: .05em;
+  margin-top: 40px;
+  font-style: italic;
+  color: #ffffff !important;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+}
+
+
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+
+
+body {
+  background: url("images/roads.jpg") fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.work {
+  display: block;
+  border-color: #ffffff;
+  border-width: 3px;
+  border-style: solid;
+  padding: 15px;
+  width: 185px;
+  transition: all .2s;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.work:hover
+{
+  box-shadow: inset 0 0 0 5px white;
+}
+
+.jumbotron {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+.jumbotron h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  padding-top: 5%;
+  padding-bottom: 15px;
+  padding-left: 25px;
+}
+
+.jumbotron p {
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff; 
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  font-weight: 300;
+}
+
+.work {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.intro {
+  background-color: white;
+  padding: 5% 5% 10% 10%;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.intro h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.intro p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  height: 100px;
+}
+
+
+ul {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300; 
+  line-height: 2em;
+  font-size: 14px;
+  color: #999;
+  padding: 20px;
+}
+
+
+.pricing {
+  text-align: center;
+  border: 3px solid #f0f0f0;
+  color: #777;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fff;
+}
+
+.pricing img {
+  display: block;
+  margin: auto;
+  width: 32px;
+}
+.pricing li:first-child,
+.pricing li:last-child {
+  padding: 20px 13px;
+}
+.pricing li {
+  list-style: none;
+  padding: 13px;
+}
+.pricing li + li {
+  border-top: 1px solid #f0f0f0;
+}
+.pricing big {
+  font-size: 32px;
+}
+.pricing h3 {
+  margin-bottom: 0;
+  font-size: 36px;
+  text-align: center;
+}
+.pricing span {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+}
+
+.pricing button {
+  width: auto;
+  margin: auto;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 50px;
+  color: #fff;
+  padding: 9px 24px;
+  background: #aaa;
+  opacity: 1;
+  transition: opacity .2s ease;
+  border: none;
+  outline: none;
+}
+.pricing button:hover {
+  opacity: .9;
+}
+.pricing button:active {
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.block {
+  align-content: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.more p {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 28px;
+  color: #999;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+
+/* pricing color */
+.p-green big,
+.p-green h3 {
+  color: #3a7f5f;
+}
+.p-green button {
+  background: #3a7f5f;
+}
+.p-blue big,
+.p-blue h3 {
+  color: #456ba8
+}
+.p-blue button {
+  background: #456ba8;
+}
+.p-red big,
+.p-red h3 {
+  color: #964c50;
+}
+.p-red button {
+  background: #964c50;
+}
+
+.spacer {
+  height: 15px;
+}
+
+.title h1 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(51,51,51);
+  font-weight: 500;
+  font-size: 46px;
+  margin-top: 40px;
+}
+
+
+.image-container {
+  background-color: white;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+
+.images {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    opacity: 0.4;
+    position: relative; 
+}
+
+.images:hover {
+  opacity: 1;
+}
+
+.img-content {
+  position: absolute;
+  margin-top: 25%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  width: 92%;
+}
+
+.img-content h2 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.white {
+  background-color: white;
+}
+
+.contact {
+  background-color: rgb(51,51,51);
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+footer {
+  background:#363b3f;
+  padding-bottom: 30px;
+ }
+
+footer p {
+  font-size:12px;
+  color:#fff;
+  text-align:center;
+  padding-top: 20px;
+}
+
+footer ul {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+footer li {
+    display: inline-block;
+    margin: 4px;
+}
+
+footer li a {
+    display: block;
+    text-decoration: none;
+    border-bottom: medium none;
+    padding: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s, all 1s ease 0s;
+    background: #444749;
+}
+
+footer .facebook:hover {
+  background-color:#365397;
+}
+footer .twitter:hover {
+  background-color:#00a9f1;
+}
+footer .email:hover {
+  background-color:#e0452c;
+}
+footer .youtube:hover {
+  background-color:#ff3333;
+}
+footer .instagram:hover {
+  background-color:#396d9a;
+}
+
+
+@media only screen and (max-width:675px) {
+  .facebook {
+    display: none;
+  }
+
+  .twitter {
+    display: none;
+  }
+
+ .snapchat {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width:420px) {
+  .navbar-text {
+    display: none;
+  }
+}
