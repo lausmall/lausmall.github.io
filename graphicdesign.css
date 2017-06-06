@@ -19,6 +19,12 @@
   max-height: 65px;
 }
 
+.navbar-brand {
+  display: block;
+  vertical-align: baseline;
+  max-height: 65px;
+}
+
 .navbar {
   background-color: transparent;
   background: transparent;
@@ -57,19 +63,20 @@
   color: #ffffff;
 }
 
-
-
-body {
-  background: url("images/waves.jpg") fixed;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-
 .white {
   background-color: white;
 }
+
+
+body {
+  background: url("graphicdesign.png") fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+}
+
+
 
 .work {
   display: block;
@@ -94,32 +101,19 @@ body {
 }
 
 .jumbotron h1 {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 300;
-  color: #ffffff;
-  padding-top: 5%;
+  padding-top: 30%;
   padding-bottom: 15px;
   padding-left: 25px;
 }
 
-.jumbotron p {
-  font-family: 'Quicksand', sans-serif;
-  color: #ffffff; 
-  font-size: 20px;
-  padding-bottom: 15px;
-  padding-left: 25px;
-  font-weight: 300;
+
+.jumbotron {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  height: 500px;
 }
 
-.work {
-  font-size: 18px;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-weight: 400;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-align: center;
-}
 
 .intro {
   background-color: white;
@@ -140,34 +134,41 @@ body {
   font-weight: 300;
 }
 
-.text {
-  margin: 5% 10%;
-  font-size: 18px;
+.image-container {
+  background-color: white;
+  padding-bottom: 30px;
 }
 
-.row {
-  margin-top: 30px;
+
+.images {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    opacity: 0.4;
+    position: relative; 
 }
 
-.container {
-  align-content: center;
+.images:hover {
+  opacity: 1;
 }
 
-h2, h3 {
-  font-family: 'Quicksand', sans-serif;
-  font-weight:300;
-  font-size:1.5em;
-  margin-top:2em;
+.img-content {
+  position: absolute;
+  margin-top: 25%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  width: 92%;
 }
 
-iframe {
-  padding: 5px;
-  align-content: center;
+.img-content h2 {
+  font-weight: 700;
+  font-size: 50px;
 }
 
-.spacer {
-  height: 100px;
-}
 
 .contact {
   background-color: rgb(51,51,51);

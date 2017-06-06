@@ -19,6 +19,12 @@
   max-height: 65px;
 }
 
+.navbar-brand {
+  display: block;
+  vertical-align: baseline;
+  max-height: 65px;
+}
+
 .navbar {
   background-color: transparent;
   background: transparent;
@@ -49,8 +55,6 @@
   font-family: 'Quicksand', sans-serif;
   font-weight: 200;
 }
-
-
 
 
 .navbar-default .navbar-nav > li > a {
