@@ -85,12 +85,21 @@ body {
 }
 
 .contactwork {
-  display: block;
+  border-color: #ffffff;
+  border-width: 3px;
+  border-style: solid;
+  padding: 15px;
+  width: 185px;
+  transition: all .2s;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.contactwork {
   border-color: rgb(51,51,51);
   border-width: 3px;
   border-style: solid;
   padding: 15px;
-  width: 200px;
+  width: 240px;
   transition: all .2s;
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
@@ -100,8 +109,10 @@ body {
   color: rgb(51,51,51);
   text-decoration: none;
   align-content: center;
-  margin-top: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
+
 
 .contactwork:hover
 {
@@ -113,6 +124,14 @@ body {
 .contactwork p {
   color: rgb(51,51,51);
   font-weight: 500;
+}
+
+.spacer {
+  height: 150px;
+}
+
+.introtext {
+  margin-bottom: 50px;
 }
 
 .jumbotron {
