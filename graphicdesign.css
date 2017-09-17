@@ -140,7 +140,10 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: 26px;
   font-weight: 300;
+  margin-bottom: 70px;
 }
+
+
 
 .image-container {
   background-color: white;
@@ -166,7 +169,7 @@ body {
 
 .img-content {
   position: absolute;
-  margin-top: 25%;
+  margin-top: 65%;
   font-family: 'Raleway', sans-serif;
   text-align: center;
   width: 92%;
@@ -174,9 +177,8 @@ body {
 
 .img-content h2 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 30px;
 }
-
 
 .contact {
   background-color: rgb(51,51,51);

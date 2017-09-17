@@ -66,8 +66,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 100%;
-  height: auto;
 }
 
 
@@ -250,4 +248,5 @@ footer .instagram:hover {
   .navbar-text {
     display: none;
   }
+
 }
